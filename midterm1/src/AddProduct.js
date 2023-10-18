@@ -23,7 +23,6 @@ const AddProduct = () => {
 
     };
 
- 
 
     const handleSubmit = (event) => {
 
@@ -54,13 +53,9 @@ const AddProduct = () => {
                 <input
 
                     type="text"
-
                     name="Description"
-
                     placeholder="Description"
-
                     value={formData.Description}
-
                     onChange={handleInputChange}
 
                 />
@@ -70,13 +65,9 @@ const AddProduct = () => {
                 <input
 
                     type="text"
-
                     name="Category"
-
                     placeholder="Category"
-
                     value={formData.Category}
-
                     onChange={handleInputChange}
 
                 />
@@ -86,13 +77,9 @@ const AddProduct = () => {
                 <input
 
                     type="text"
-
                     name="Quantity"
-
                     placeholder="Quantity"
-
                     value={formData.Quantity}
-
                     onChange={handleInputChange}
 
                 />
@@ -102,23 +89,15 @@ const AddProduct = () => {
                 <input
 
                     type="text"
-
                     name="Price"
-
                     placeholder="Price"
-
                     value={formData.Price}
-
                     onChange={handleInputChange}
 
                 />
-
                 <br />
-
                 <button type="submit" class="success">Submit</button>
-
                 <button type="submit" class="cancel">Cancel</button>
-
             </form>
 
         </div>

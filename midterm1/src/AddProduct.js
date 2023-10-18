@@ -7,15 +7,10 @@ const AddProduct = () => {
     const [formData, setFormData] = useState({
 
         Name: '',
-
         Description: '',
-
         Category: '',
-
         Quantity: '',
-
         Price: '',
-
     });
 
  
@@ -33,9 +28,7 @@ const AddProduct = () => {
     const handleSubmit = (event) => {
 
         event.preventDefault();
-
         //console.log(formData);
-
         alert(JSON.stringify(formData));
 
     };
@@ -43,23 +36,17 @@ const AddProduct = () => {
  
 
     return (
-
         <div>
-
             <form onSubmit={handleSubmit}>
-
+            <br></br><br></br>
+            <hr></hr>
+             <h1>Add Product form</h1>
                 <input
-
                     type="text"
-
                     name="Name"
-
                     placeholder="Name"
-
                     value={formData.Name}
-
                     onChange={handleInputChange}
-
                 />
 
                 <br />
